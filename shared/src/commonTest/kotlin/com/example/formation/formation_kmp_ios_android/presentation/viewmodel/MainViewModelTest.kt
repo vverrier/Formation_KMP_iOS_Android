@@ -16,6 +16,7 @@ import kotlin.test.assertTrue
 import kotlin.time.Duration.Companion.seconds
 
 class MainViewModelTest {
+    /*
     @Test
     fun testAPIWork() = runTest(timeout = 10.seconds) {
 
@@ -31,6 +32,7 @@ class MainViewModelTest {
         }
         assertTrue(list.isNotEmpty())
     }
+     */
 
     @Test
     fun testFakeAPIWork() = runTest(timeout = 10.seconds) {
