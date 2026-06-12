@@ -1,10 +1,7 @@
 package com.example.formation.formation_kmp_ios_android.presentation.viewmodel
 
-import com.example.formation.formation_kmp_ios_android.di.apiModule
 import com.example.formation.formation_kmp_ios_android.di.fakeApiModule
-import com.example.formation.formation_kmp_ios_android.di.initKoin
 import com.example.formation.formation_kmp_ios_android.domain.WeatherRepository
-import com.example.formation.formation_kmp_ios_android.rest.KtorWeatherApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.koin.core.context.startKoin
