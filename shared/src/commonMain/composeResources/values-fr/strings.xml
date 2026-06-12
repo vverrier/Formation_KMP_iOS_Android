@@ -1,0 +1,5 @@
+<resources>
+    <string name="hello">Compose en français:</string>
+    <string name="clear_filter">Supprimer le filtre</string>
+    <string name="load_data">Charger les données</string>
+</resources>
