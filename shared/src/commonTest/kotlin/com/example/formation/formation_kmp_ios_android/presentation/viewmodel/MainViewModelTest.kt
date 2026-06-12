@@ -12,7 +12,6 @@ import kotlin.test.Test
 import kotlin.test.assertTrue
 import kotlin.time.Duration.Companion.seconds
 
-
 class MainViewModelTest {
     /*
     @Test
