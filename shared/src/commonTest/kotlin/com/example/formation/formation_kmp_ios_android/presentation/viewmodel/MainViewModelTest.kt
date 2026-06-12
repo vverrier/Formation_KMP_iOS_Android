@@ -3,7 +3,6 @@ package com.example.formation.formation_kmp_ios_android.presentation.viewmodel
 import com.example.formation.formation_kmp_ios_android.di.apiModule
 import com.example.formation.formation_kmp_ios_android.di.fakeApiModule
 import com.example.formation.formation_kmp_ios_android.domain.WeatherRepository
-import com.example.formation.formation_kmp_ios_android.rest.KtorWeatherApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.koin.core.context.startKoin
@@ -23,7 +22,7 @@ class MainViewModelTest {
             modules(apiModule)
         }
         val koin = KoinPlatform.getKoin()
-        val weatherApi = koin.get<KtorWeatherApi>()
+        val weatherApi = koin.get<WeatherRepository>()
         val viewModel = MainViewModel(weatherApi = weatherApi)
         val list = weatherApi.loadWeathers("Toulouse")
         viewModel.runInProgress.first {
