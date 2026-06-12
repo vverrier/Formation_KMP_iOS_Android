@@ -1,6 +1,6 @@
 TEAM_ID=
 
-PRODUCT_NAME=Formation_KMP_iOS_Android
+PRODUCT_NAME=WeatherApp
 PRODUCT_BUNDLE_IDENTIFIER=com.example.formation.formation_kmp_ios_android.Formation_KMP_iOS_Android$(TEAM_ID)
 
 CURRENT_PROJECT_VERSION=1
